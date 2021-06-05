@@ -1,8 +1,13 @@
+/* ===BASE=== */
+@import './base/normalize';
 @import './base/container';
 @import './base/fonts';
 
+/* ===BASE=== */
+
 @import './header/header';
-
 @import './nav/nav';
-
+@import './box/box';
 @import './box-pay/box-pay';
+@import './box-big/box-big';
+@import './footer/footer';

@@ -1,0 +1,38 @@
+.box {
+    $box: &;
+    display: flex;
+    height: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+        text-transform: uppercase;
+        margin: 40px 0 10px 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 21px;
+        font-weight: 300;
+        color: #266258;
+    }
+
+    &__subtitle {
+        text-transform: uppercase;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        color: #438a7e;
+    }
+
+
+    &:nth-child(3) {
+        background: url(../images/box/bg-box1.png) no-repeat;
+    }
+    &:nth-child(7) {
+        background: url(../images/box/bg-box2.png) no-repeat;
+    }
+    &:nth-child(8) {
+        background: url(../images/box/bg-box3.png) no-repeat;
+    }
+}
